@@ -17,3 +17,17 @@
 - cat >> fileName1 `Append more content to fileName1, save it with Ctrl +D`
 
 ### Here `Linux once again goes into interactive mode, waiting for content to append to the`
+- touch
+- mkdir 
+- cp 
+- mv 
+- rm -r directory: `Remove a directory and its content all`
+
+### Exercise 
+- ls  
+- whoami 
+- locate | which | whereis 
+- cat > newFile1
+- cat >> newFile1 
+- mkdir hackerDir && touch hackerFile 
+- cd hackerDir && cp /root/secretFile

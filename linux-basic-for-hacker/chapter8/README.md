@@ -18,7 +18,8 @@ Here, you want to use the bash interpreter.
 
 - `echo "What is your favorite programming language?" read language`
 
-- `Black, White and Gray Hacker`
+
+### `Black, White and Gray Hacker`
 
 Black hat hackers are those with malicious intentions, such as stealing credit card numbers or defacing websites. 
 

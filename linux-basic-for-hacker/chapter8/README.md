@@ -19,13 +19,15 @@ Here, you want to use the bash interpreter.
 - `echo "What is your favorite programming language?" read language`
 
 
-### `Black, White and Gray Hacker`
+### Black, White and Gray Hacker
 
-Black hat hackers are those with malicious intentions, such as stealing credit card numbers or defacing websites. 
+- Black hat hackers are those with malicious intentions, such as stealing credit card numbers or defacing websites. 
 
-White hat hackers are those with good intentions, such as helping software developers or system administrators make their systems more secure. 
+- White hat hackers are those with good intentions, such as helping software developers or system administrators make their systems more secure. 
 
-Gray hat hackers are those who tend to move between these two extremes.
+- Gray hat hackers are those who tend to move between these two extremes.
+
+### Nmap command 
 
 - `nmap <type of scan><target IP><optionally, target port>`
 
@@ -58,7 +60,6 @@ The end result is a file (MySQLscan2) containing information about hosts in the 
 Keep in mind that scanning networks or systems without proper authorization is against the terms of service of many networks, 
 
 and you should only perform such actions on systems you own or have explicit permission to test.
-
 
 ### Exercise 
 - 1.`Check above firstScriipt.sh`

@@ -2,6 +2,12 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../all-lamp-notes"
+		},
+		{
+			"path": "../Guide-Install-ERPNext"
 		}
 	],
 	"settings": {}

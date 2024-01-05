@@ -30,7 +30,5 @@ and trace the route of those packets with command (`traceroute google.com`)
 ### *Security Concerns** 
 - `Do not use free proxy`
 
-### *
-
 ### *Exercise* 
 - `Do it by your own`

@@ -4,12 +4,12 @@
 #### Count Take Exam: `1`
 ### Time Duration: `{1: 3h 4m}`
 #### Score: 
-1. B
-2. D
-3. A
-4. B
-5. D
-6. D
+1. B, wrong
+2. D, wrong
+3. A, wrong
+4. B, right
+5. D, right
+6. D, right
 7. C
 8. A
 9. D

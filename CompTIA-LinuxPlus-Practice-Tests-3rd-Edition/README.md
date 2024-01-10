@@ -10,20 +10,20 @@
 4. B, right
 5. D, right
 6. D, right
-7. C
-8. A
-9. D
-10. A
-11. C
-12. B
-13. A
-14. A 
-15. B
-16. A
-17. B
-18. B 
-19. C
-20. D
+7. C, wrong
+8. A, wrong
+9. D, wrong
+10. A, right
+11. C, wrong
+12. B, right
+13. A, right
+14. A, wrong
+15. B, wrong
+16. A, wrong
+17. B, wrong
+18. B, wrong
+19. C, wrong
+20. D, wrong
 21. C
 22. B
 23. D

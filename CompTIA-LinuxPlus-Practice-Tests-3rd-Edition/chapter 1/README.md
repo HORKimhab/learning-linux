@@ -171,3 +171,69 @@ While the actual space required for /boot may vary based on the distribution and
 
 #### *`20.`*
 - `grub-mkconfig`: This should be run after making a change to the `/etc/default/grub` file. 
+
+#### *`21.`*
+- `pvcreate`: Prepares a physical disk for use with LVM. You need to specify the disk device identifier (e.g., /dev/sdb) after the command.
+- `lvmcreate`: Creates a new volume group or extends an existing one. You need to specify the volume group name and other options like physical volumes to use.
+- `lvcreate`: Creates a new logical volume within a volume group. You need to specify the volume group name, logical volume name, size, and other options.
+- `lvchange`: Modifies attributes of an existing logical volume, such as resizing, renaming, or activating/deactivating it. You need to specify the logical volume name and the desired operation.
+- `lvmscan`: Scans for and displays information about all existing LVM objects (physical volumes, volume groups, logical volumes).
+
+#### *`22.`*
+- `/dev/sda1` GRUB Legacy begins counting at 0 and separates the disk letter and partition with a comma, therefore making 0,0 the first partition on the first disk. Options A and C are not the first disk on the system, and option B contains a nonexistent partition.
+
+#### *`23.`*
+- `grub-install /dev/sda` Install GRUB into the amster boot record (MBR) of the first SATA `Serial Advanced Technology Attachment` drive. 
+
+#### *`24.`*
+- `yum install` Install a given package
+
+#### *`25.`*
+After a new hard drive is inserted into the system, what it the correct order to make the drive ready for use within Linux
+- Use `fdisk` to create partions, then format the partions using a command ushc as `mkfs` and then mount the partions.
+
+#### *`26.`*
+- `rpm2cpio` is a utility that can extract the contents of an RPM `Read Hat Pacakge Manager` package without installing it. This can be useful for several reasons, such as
+
+    - Inspecting the files in a package before installing it.
+    - Copying individual files from a package to another location.
+    - Creating a custom installation of a package by selecting only the files you need.
+
+#### *`27.`*
+The following describes a primary difference between `ext2` and `ext3` filesystems: 
+- `ext3` includes journaling for the filesystem. 
+
+#### *`28.`*
+- `/etc` Configuration files for the entire system, like settings and applications. Think of it as the system control center. Need admin access to modify. 
+- `/var` Data files that change and grow over time, like logs, emails and caches. Access depends on context. 
+- `/tmp` Temporay files created by programs, deleted on reboot or program close. 
+- `/opt` Third-party software packages, keeps files separate from the rest of the system.
+
+#### *`29.`*
+- `mount -a` mount all filesystems that are currently available in `/etc/fstab`
+- `mound -f` mount with fake  
+
+#### *`30.`*
+- `systemctl enable` change a service so that runs on the next boot of the system. 
+
+#### *`31.`*
+`xfs_metadump` is a debugging tool used with the XFS filesystem on Linux systems. It allows you to  create a copy of the filesystem's metadata to a file. This metadata includes information about the files and directories stored on the filesystem, such as file names, access permissions, and block locations.
+- `xfs_metadump -g` Display a progress indicator. 
+
+#### *`32.`*
+- `du` The system is running out of disk space within the home directory partion, and quotas have not been enabled.
+
+#### *`33.`*
+- The `/etc/fstab` file is used to store information about the filesystems to mount within the system. 
+- The `systemd.mount` option refers to the configuration files used by systemd related to filesystems.
+
+#### *`34.`*
+- `/mediat` The proper mount point for removable media
+
+#### *`35.`*
+`lsscsi` is a command-line utility used on Linux systems to list information about SCSI devices attached to the system. SCSI stands for `Small Computer System Interface`, which is a standard for connecting storage devices like hard drives, SSDs, and optical drives to computers.
+
+Therefore, the number of devices supported per bus varies significantly:
+- 7 to 15 for early parallel SCSI
+- 128 per initiator port for SAS
+- Theoretically unlimited for iSCSI (network limitations apply)

@@ -24,21 +24,21 @@
 18. B, wrong
 19. C, wrong
 20. D, wrong
-21. C
-22. B
-23. D
-24. C
-25. A
-26. A
-27. C 
-28. A
-29. C
-30. A 
-31. B
-32. A
-33. D
-34. D
-35. C
+21. C, right
+22. B, wrong
+23. D, wrong 
+24. C, right
+25. A, wrongt 
+26. A, right
+27. C, wrong
+28. A, wrong 
+29. C, right 
+30. A, right
+31. B, wrong
+32. A, right
+33. D, wrong
+34. D, right
+35. C, wrong 
 36. C
 37. A
 38. B

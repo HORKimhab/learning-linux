@@ -1,0 +1,2 @@
+# Description: print Hello and first command-line argument
+printf "Hello, %s!\n" "$1"

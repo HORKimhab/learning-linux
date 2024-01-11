@@ -1,0 +1,15 @@
+# The %s specifier prints the literal characters in the argument:
+printf "%s\n" Print arguments on "separate lines"
+
+# Ouput 
+
+# Print
+
+              
+# arguments
+
+              
+# on
+
+              
+# separate lines

@@ -1,5 +1,6 @@
 ## Source
 - https://www.learnshell.org
+- https://www.w3schools.io/terminal/bash-tutorials
 
 ### *`Hello World`*
  ```bash
@@ -8,4 +9,11 @@
 # sudo ./{fileName} (Execute file)
 
 echo "Hello World"
+```
+
+### *`Array`*
+- Declare an array 
+ ```bash
+declares -a array; # indexed array
+declare -A array; # associative array
 ```
